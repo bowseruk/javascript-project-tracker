@@ -72,6 +72,7 @@ table th, table td {
     font-size: 15px;
     font-weight: 400;
     padding: 7px;
+    min-width: 30px;
 }
 
 .project-headers > th {
