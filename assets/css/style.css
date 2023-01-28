@@ -1,0 +1,84 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+/* Main variables */
+body {
+    --primary: #27323b;
+    --secondary: rgb(233, 235, 236);
+    --tertiary: rgb(218, 76, 76);
+    --light-text-primary: var(--secondary);
+    --dark-text-primary: var(--primary);
+    background-color: var(--secondary);
+}
+/*  */
+header {
+    background-color: var(--primary);
+    color: var(--light-text-primary);
+    text-align: center;
+    padding: 40px 10px;
+}
+
+header h1 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+header h2, header h3 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.card-header, .card-footer, .modal-header, .modal-footer, .input-group-text {
+    color: var(--light-text-primary);
+    background-color: var(--primary);
+    border: var(--dark-text-primary) 1px solid;
+}
+
+.card-header, .card-body, .input-box ul {
+    text-align: left;
+}
+
+.card-header, .card-body, .input-box ul, .card-footer {
+    border: var(--dark-text-primary) 1px solid;
+}
+
+.input-box {
+    text-align: left;
+    
+}
+
+.input-box, .modal {
+    color: var(--dark-text-primary);
+}
+
+.input-box button, .modal-footer button {
+    background-color: var(--secondary);
+}
+
+.input-box button:hover, .modal-footer button:hover {
+    background-color: white;
+    color: var(--dark-text-primary);
+}
+
+.card-body, .modal-body {
+    background-color: var(--secondary);
+}
+
+table th, table td {
+    color: var(--light-text-primary);
+    border: var(--light-text-primary) 1px solid;
+    background-color: var(--primary);
+    font-size: 15px;
+    font-weight: 400;
+    padding: 7px;
+}
+
+.project-headers > th {
+    color: var(--light-text-primary);
+    background-color: var(--tertiary) !important;
+    font-weight: 500;
+}
+
+
+
